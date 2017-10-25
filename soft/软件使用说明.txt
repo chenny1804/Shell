@@ -1,0 +1,13 @@
+##########################################
+#get_ap_speed.py 	获取AP的5G和2.4G Tx和Rx速率
+#get_rssi.py 		获取AP中各sta的Rssi值
+#get_rssi_dump.py	获取AP中各sta在rssi dump里面的值
+#get_sta_num.py		获取AP中actitve的sta数量
+#使用方法：
+#在cmd中拖入上述脚本 ，并输入 IP地址 时间间隔
+#格式：脚本名称 IP地址 时间间隔
+#例如： 
+#	C:\Users\chenyue>C:\Users\chenyue\Desktop\shell\get_rssi.py A 5
+#	C:\Users\chenyue>C:\Users\chenyue\Desktop\shell\get_rssi.py 192.168.1.1 10
+#IP地址如果为A，脚本会分别获取192.168.1.1-192.168.1.9的信息
+#IP地址为192.168.1.1 脚本只会读取192.168.1.1的信息
